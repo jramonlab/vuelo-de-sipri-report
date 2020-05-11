@@ -1,0 +1,86 @@
+---
+title: "EL VUELO DE SIPRI"
+subtitle: "Interinos docentes en Andalucía"
+author: "JRLAB. Jose Ramon Hernandez Galan"
+date: "11/5/2020"
+output:
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+  pdf_document: default
+  github_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("figs\\migas.jpg")
+```
+
+## Introducción
+
+Si eres personal docente interino en Andalucía o aspiras a serlo no hace falta que te presente a Sipri. Si no es así, lo conocerás a lo largo de este artículo.
+
+
+## SIPRI
+
+SIPRI es el **SI**stema de **PR**ovisionamiento de **I**nterinos docentes de la Junta de Andalucía. La primera vez que oí hablar de él no sé porqué me sonó a pájaro, igual  en ese momento me vi influenciado por el logo del pájaro de Twiter que acompaña a las páginas de la Junta. De ahí el nombre del artículo.
+
+En ocasiones, la vida del interino es similar a la de un pájaro, volando de un sitio a otro cubriendo las bajas del personal docente a lo largo y ancho de Andalucía. Es por esto que el título es una buena metáfora de la vida interina.
+
+
+## ¿Cúanto vuela SIPRI?
+El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020.
+
+NUM_PLAZAS Vs TIME  (BARRAS)
+```{r echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("figs\\time_plazas_cuerpo_facet.png")
+```
+
+## ¿Cómo vuela SIPRI?
+El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020 distribuidas por CUERPO.
+
+NUM_PLAZAS Vs TIME  (DOTS)
+
+```{r echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("figs\\time_plazas_cuerpo_dots.png")
+```
+
+
+## ¿Donde vuela SIPRI?
+El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020 distribuidas por CUERPO y PROVINCIA.
+
+NUM_PLAZAS Vs TIME  (facet)
+
+## ¿Cómo evolucionan las bolsas que utiliza Sipri?
+El siguiente gráfico muestra evolución de los llamamiento en función de las bolsas de Sipri durante el curso 2012-2020.
+
+LLAMAMIENTO Vs TIME  (espec.)
+
+## Volando con Sipri
+
+Si quieres personalizar la vista del vuelo de Sipri puedes utilizar nuestra aplicación web interactiva.
+
+[**Web App interactiva**](https://jrlab.shinyapps.io/sipri)
+
+Si necesitas una vista más profunda del vuelo de Sipri o tienes cualquier consulta puedes ponerte en contacto. En la sección de contacto podrás encontrar nuestra dirección.
+
+
+## Referencias
+Datos: recogidos de la Junta de Andalucía.
+
+## Contacto
+JRLAB.2020. Puedes escribirme para cualquier aclaración a  jrlabnotifier@gmail.com
+
+[**JRLAB web**](https://www.jrlab.es)
+
+## Licencia
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+

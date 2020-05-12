@@ -46,36 +46,55 @@ Normalmente, hay dos llamamientos por semana. Después del COVID-19 solo hay un 
 knitr::include_graphics("figs\\time_plazas_bars.png")
 ```
 
+<center> 
+Fig.1 Plazas requeridas en SIPRI durante el curso.
+</center>
+
+
 ## ¿Cómo vuela SIPRI?
 El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020 distribuidas por CUERPO.
 
 La **parada navideña**. Desde el inicio de Diciembre no hay más llamamientos hasta principios de Enero.
 
-El parón del **COVID-19**
+El parón del **COVID-19** se ve claramente en el hueco que queda n la parte derecha
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("figs\\time_plazas_cuerpo_dots.png")
 ```
-
+<center> 
+Fig.2 Plazas requeridas en SIPRI durante el curso. Distribuidas por Cuerpo docente.
+</center>
 
 ## ¿Donde vuela SIPRI?
 El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020 distribuidas por PROVINCIA.
 
-NUM_PLAZAS Vs TIME  (facet)
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("figs\\time_plazas_provincia_dots.png")
 ```
+<center> 
+Fig.3 Plazas requeridas en SIPRI durante el curso. Distribuidas por Provincia.
+</center>
+
 
 ## ¿Cómo evolucionan las bolsas que utiliza Sipri?
 El siguiente gráfico muestra evolución de los llamamiento en función de las bolsas de Sipri durante el curso 2012-2020.
 
 LLAMAMIENTO Vs TIME  (espec.)
 
+Refleja el movimiento de la bolsa, el orden del último docente convocado.
+
+<center> 
+Fig.4 
+</center>
+
 ## Resumiendo
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("figs\\summary_plazas_bars.png")
 ```
+<center> 
+Fig.5 Plazas totales requeridas en SIPRI. Distribuidas por Cuerpo docente.
+</center>
 
 ## ¿Qué pasa con las plazas de Catedráticos de Música y Artes Plásticas?
 
@@ -84,7 +103,9 @@ Si nos fijamos en las plazas de del cuerpo de Catedráticos de Música y Artes P
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("figs\\Catedraticos_Musica_AE.png")
 ```
-
+<center> 
+Fig.6 Plazas del Cuerpo de Catedráticos de Música y Artes Escénicas requeridas en SIPRI durante el curso.
+</center>
 
 ## Volando con Sipri
 

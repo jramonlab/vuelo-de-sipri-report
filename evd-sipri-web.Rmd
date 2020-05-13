@@ -51,7 +51,7 @@ knitr::include_graphics("figs\\1_time_plazas_bars.png")
 ```
 
 <center> 
-Fig. 1: Plazas convocadas en SIPRI durante el curso.
+*Fig. 1: Plazas convocadas en SIPRI durante el curso.*
 </center>
 
 ## ¿Cómo vuela SIPRI?
@@ -62,7 +62,7 @@ Como el número de plazas es abrimador vamos a separarlo por pcuerpos para tener
 knitr::include_graphics("figs\\2_time_plazas_cuerpo_dots.png")
 ```
 <center> 
-Fig. 2: Plazas requeridas en SIPRI durante el curso. Distribuidas por Cuerpo docente.
+*Fig. 2: Plazas requeridas en SIPRI durante el curso.* Distribuidas por Cuerpo docente.
 </center>
 
 ## ¿Donde vuela SIPRI?
@@ -74,7 +74,7 @@ El siguiente gráfico (Fig. 3) muestra las plazas ofertadas en Sipri durante el 
 knitr::include_graphics("figs\\3_time_plazas_provincia_dots.png")
 ```
 <center> 
-Fig. 3: Plazas requeridas en SIPRI durante el curso. Distribuidas por Provincia.
+*Fig. 3: Plazas requeridas en SIPRI durante el curso.* Distribuidas por Provincia.
 </center>
 
 
@@ -90,7 +90,7 @@ En este gráfico se refleja el movimiento de la bolsa a través de los distintos
 knitr::include_graphics("figs\\4_orden_ultimo_convocado_puesto_dots.png")
 ```
 <center> 
-Fig. 4: Orden en la bolsa del último convocado. Distribuido por Puesto. Incluye los puestos del cuerpo de profesores de la EOI.
+*Fig. 4: Orden en la bolsa del último convocado. Distribuido por Puesto. Incluye los puestos del cuerpo de profesores de la EOI.*
 </center>
 
 ## Resumiendo
@@ -101,7 +101,7 @@ Para hacernos una idea de la distribución de plazas  convocadas de los distinto
 knitr::include_graphics("figs\\5_summary_plazas_bars.png")
 ```
 <center> 
-Fig.5 Plazas totales requeridas en SIPRI. Distribuidas por Cuerpo docente.
+*Fig.5: Plazas totales requeridas en SIPRI. Distribuidas por Cuerpo docente.*
 </center>
 
 Parece que hay tantas plazas de catedráticos de Música como de profesores de FP. Vamos a explicar esta peculiaridad en el siguiente apartado.
@@ -115,7 +115,7 @@ En el siguiente gráfico (Fig. 6) vemos que, efectivamente, salen muchas plazas 
 knitr::include_graphics("figs\\6_Catedraticos_Musica_AE.png")
 ```
 <center> 
-Fig. 6: Plazas del Cuerpo de Catedráticos de Música y Artes Escénicas requeridas en SIPRI durante el curso.
+*Fig. 6: Plazas del Cuerpo de Catedráticos de Música y Artes Escénicas requeridas en SIPRI durante el curso.*
 </center>
 
 ## Volando con Sipri

@@ -90,7 +90,7 @@ En este gráfico se refleja el movimiento de la bolsa a través de los distintos
 knitr::include_graphics("figs\\4_orden_ultimo_convocado_puesto_dots.png")
 ```
 <center> 
-Fig. 4: Orden en la bola del último convocado. Distribuido por Puesto. Incluye los puestos del cuerpo de profesores de la EOI.
+Fig. 4: Orden en la bolsa del último convocado. Distribuido por Puesto. Incluye los puestos del cuerpo de profesores de la EOI.
 </center>
 
 ## Resumiendo

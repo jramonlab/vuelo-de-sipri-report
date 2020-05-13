@@ -30,81 +30,92 @@ Si eres personal docente interino en Andalucía o aspiras a serlo no hace falta 
 
 ## SIPRI
 
-SIPRI es el **SI**stema de **PR**ovisionamiento de **I**nterinos docentes de la Junta de Andalucía. La primera vez que oí hablar de él no sé porqué me sonó a pájaro, igual  en ese momento me vi influenciado por el logo del pájaro de Twiter que acompaña a las páginas de la Junta. De ahí el nombre del artículo.
+SIPRI es el **SI**stema de **PR**ovisionamiento de **I**nterinos docentes de la Junta de Andalucía. La primera vez que oí hablar de él no sé porqué me sonó a un pájaro, igual en ese momento me vi influenciado por el logo del pájaro de Twiter que acompaña a las páginas de la Junta de Andalucía. De ahí el nombre de este trabajo.
 
-En ocasiones, la vida del interino es similar a la de un pájaro, volando de un sitio a otro cubriendo las bajas del personal docente a lo largo y ancho de Andalucía. Es por esto que el título es una buena metáfora de la vida interina.
+En ocasiones, la vida del interino es similar a la de un pájaro, volando de un sitio a otro cubriendo las bajas del personal docente a lo largo y ancho de Andalucía. Es por esto que el título me pareció una buena metáfora de la vida interina.
 
 
 ## ¿Cúanto vuela SIPRI?
-El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2019-2020.
+El siguiente gráfico muestra las plazas convocadas en SIPRI durante el curso 2019-2020.
 
-Nuestra serie de datos empieza en Diciembre de 2019.
+Nuestra **serie de datos** empieza en Diciembre de 2019. Los datos se recogen periódicamente de la Junta de Andalucía.
 
-Normalmente, hay dos llamamientos por semana. Después del COVID-19 solo hay un llamamiento por semana.
+Normalmente, hay **dos convocatorias por semana**. Comentar que después del COVID-19 solo hay un llamamiento por semana. En la (Figura 1) se muestran el total de las plazas convocadas en toda Andalucía para los distintos cuerpos (Maestros, Profesores, Catedráticos, etc.)
+
+La **parada navideña**. Desde el inicio de Diciembre no hay más convocatorias hasta principios de Enero.
+
+El parón del **COVID-19** se ve claramente en el hueco que queda en la parte derecha.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("figs\\time_plazas_bars.png")
+knitr::include_graphics("figs\\1_time_plazas_bars.png")
 ```
 
 <center> 
-Fig.1 Plazas requeridas en SIPRI durante el curso.
+Fig. 1: Plazas convocadas en SIPRI durante el curso.
 </center>
 
-
 ## ¿Cómo vuela SIPRI?
-El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020 distribuidas por CUERPO.
 
-La **parada navideña**. Desde el inicio de Diciembre no hay más llamamientos hasta principios de Enero.
-
-El parón del **COVID-19** se ve claramente en el hueco que queda n la parte derecha
+Como el número de plazas es abrimador vamos a separarlo por pcuerpos para tener una visión más clara de las convocatorias de losdistintos cuerpos. El siguiente gráfico (Fig. 2) muestra las plazas ofertadas en Sipri durante el curso 2019-2020 distribuidas por CUERPO.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("figs\\time_plazas_cuerpo_dots.png")
+knitr::include_graphics("figs\\2_time_plazas_cuerpo_dots.png")
 ```
 <center> 
-Fig.2 Plazas requeridas en SIPRI durante el curso. Distribuidas por Cuerpo docente.
+Fig. 2: Plazas requeridas en SIPRI durante el curso. Distribuidas por Cuerpo docente.
 </center>
 
 ## ¿Donde vuela SIPRI?
-El siguiente gráfico muestra las plazas ofertadas en Sipri durante el curso 2012-2020 distribuidas por PROVINCIA.
+Como el la comunidad de Andalucía tiene muchas provincias vamos mostrar las convoctorias por provincia para hacernos una idea donde se concentran las plazas convocadas
+
+El siguiente gráfico (Fig. 3) muestra las plazas ofertadas en Sipri durante el curso 2019-2020 distribuidas por PROVINCIA.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("figs\\time_plazas_provincia_dots.png")
+knitr::include_graphics("figs\\3_time_plazas_provincia_dots.png")
 ```
 <center> 
-Fig.3 Plazas requeridas en SIPRI durante el curso. Distribuidas por Provincia.
+Fig. 3: Plazas requeridas en SIPRI durante el curso. Distribuidas por Provincia.
 </center>
 
 
 ## ¿Cómo evolucionan las bolsas que utiliza Sipri?
-El siguiente gráfico muestra evolución de los llamamiento en función de las bolsas de Sipri durante el curso 2012-2020.
+La eterna pregunta del interino: ¿Cúando me convocarán para trabajar? ¿La bolsa se mueve rápido o lento? Pues bien, si observamos la evolución del orden de la última persona convocada nos da una idea sobre el movimiento de la bolsa.
 
-LLAMAMIENTO Vs TIME  (espec.)
+El siguiente gráfico (Fig. 4) muestra la evolución del orden de los convocados en función de las bolsas de Sipri durante el curso 2012-2020. Lo hemos particularizado para los puestos del cuerpo de Profesores de Escuela de Idiomas.
 
-Refleja el movimiento de la bolsa, el orden del último docente convocado.
+En este gráfico se refleja el movimiento de la bolsa a través de los distintos llamamientos. Cada punto indica una convocatoria de dicho puesto y el orden de la última persona convocada. Esto nos indica como evoluciona la bolsa y el tamaño que puede tener.
 
+
+```{r echo=FALSE, out.width="100%", fig.align='center'}
+knitr::include_graphics("figs\\4_orden_ultimo_convocado_puesto_dots.png")
+```
 <center> 
-Fig.4 
+Fig. 4: Orden en la bola del último convocado. Distribuido por Puesto. Incluye los puestos del cuerpo de profesores de la EOI.
 </center>
 
 ## Resumiendo
 
+Para hacernos una idea de la distribución de plazas  convocadas de los distintos cuerpos se generado el siguiente gráfico (Fig. 5) donde se ve claramente el ranking de convocatorias de los distintos cuerpos.
+
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("figs\\summary_plazas_bars.png")
+knitr::include_graphics("figs\\5_summary_plazas_bars.png")
 ```
 <center> 
 Fig.5 Plazas totales requeridas en SIPRI. Distribuidas por Cuerpo docente.
 </center>
 
+Parece que hay tantas plazas de catedráticos de Música como de profesores de FP. Vamos a explicar esta peculiaridad en el siguiente apartado.
+
 ## ¿Qué pasa con las plazas de Catedráticos de Música y Artes Plásticas?
 
-Si nos fijamos en las plazas de del cuerpo de Catedráticos de Música y Artes Plásticas (593) podemos pensar que salen muchas plazas disponibles, pero vemos que las plazas efectivas son mucho menores. En el siguiente gráfico vemos que salen muchas plazas no cubiertas en llamamaientos anteriores, los cual no sdice que estas plazas no se cubren fácilemente. Además, podemos ver que unas plazas son sustituciones y otras vacantes.
+Si nos fijamos en las plazas de del cuerpo de Catedráticos de Música y Artes Plásticas (593) en la figura anterior (Fig. 5) podemos pensar que salen muchas plazas disponibles, pero vemos que el número de plazas efectivas es mucho menor. La explicación lógica es que estas plazas no se cubren y se vuelven a convocar en la siguiente convocatoria.
+En el siguiente gráfico (Fig. 6) vemos que, efectivamente, salen muchas plazas no cubiertas en convocatorias anteriores, lo cual nos dice que estas plazas no se cubren fácilmente. Adicionalmente, podemos ver que unas plazas son sustituciones y otras vacantes.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
-knitr::include_graphics("figs\\Catedraticos_Musica_AE.png")
+knitr::include_graphics("figs\\6_Catedraticos_Musica_AE.png")
 ```
 <center> 
-Fig.6 Plazas del Cuerpo de Catedráticos de Música y Artes Escénicas requeridas en SIPRI durante el curso.
+Fig. 6: Plazas del Cuerpo de Catedráticos de Música y Artes Escénicas requeridas en SIPRI durante el curso.
 </center>
 
 ## Volando con Sipri
@@ -120,9 +131,7 @@ Si necesitas una vista más profunda del vuelo de Sipri o tienes cualquier consu
 Datos: recogidos de la Junta de Andalucía.
 
 ## Contacto
-JRLAB.2020. Puedes escribirme para cualquier aclaración a  jrlabnotifier@gmail.com
-
-[**JRLAB web**](https://www.jrlab.es)
+JRHG82. 2020. Puedes escribirme para cualquier aclaración a  jrhg82@gmail.com
 
 ## Licencia
 

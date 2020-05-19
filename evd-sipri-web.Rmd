@@ -40,7 +40,7 @@ El siguiente gráfico muestra las plazas convocadas en SIPRI durante el curso 20
 
 Nuestra **serie de datos** empieza en Diciembre de 2019. Los datos se recogen periódicamente de la Junta de Andalucía.
 
-Normalmente, hay **dos convocatorias por semana**. Comentar que después del COVID-19 solo hay un llamamiento por semana. En la (Figura 1) se muestran el total de las plazas convocadas en toda Andalucía para los distintos cuerpos (Maestros, Profesores, Catedráticos, etc.)
+Normalmente, hay **dos convocatorias por semana**. Comentar que después del COVID-19 solo hay un llamamiento por semana. En la (Fig. 1) se muestran el total de las plazas convocadas en toda Andalucía para los distintos cuerpos (Maestros, Profesores, Catedráticos, etc.)
 
 La **parada navideña**. Desde el inicio de Diciembre no hay más convocatorias hasta principios de Enero.
 
@@ -56,7 +56,7 @@ knitr::include_graphics("figs\\1_time_plazas_bars.png")
 
 ## ¿Cómo vuela SIPRI?
 
-Como el número de plazas es abrimador vamos a separarlo por pcuerpos para tener una visión más clara de las convocatorias de losdistintos cuerpos. El siguiente gráfico (Fig. 2) muestra las plazas ofertadas en Sipri durante el curso 2019-2020 distribuidas por CUERPO.
+Como el número de plazas es abrumador vamos a separarlo por cuerpos para tener una visión más clara de las convocatorias de los distintos cuerpos. El siguiente gráfico (Fig. 2) muestra las plazas ofertadas en Sipri durante el curso 2019-2020 distribuidas por CUERPO.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("figs\\2_time_plazas_cuerpo_dots.png")
@@ -66,7 +66,7 @@ knitr::include_graphics("figs\\2_time_plazas_cuerpo_dots.png")
 </center>
 
 ## ¿Donde vuela SIPRI?
-Como el la comunidad de Andalucía tiene muchas provincias vamos mostrar las convoctorias por provincia para hacernos una idea donde se concentran las plazas convocadas
+Como la comunidad de Andalucía tiene muchas provincias vamos a mostrar las convoctorias por provincia para hacernos una idea donde se concentran las plazas convocadas.
 
 El siguiente gráfico (Fig. 3) muestra las plazas ofertadas en Sipri durante el curso 2019-2020 distribuidas por PROVINCIA.
 
@@ -95,7 +95,7 @@ knitr::include_graphics("figs\\4_orden_ultimo_convocado_puesto_dots.png")
 
 ## Resumiendo
 
-Para hacernos una idea de la distribución de plazas  convocadas de los distintos cuerpos se generado el siguiente gráfico (Fig. 5) donde se ve claramente el ranking de convocatorias de los distintos cuerpos.
+Para hacernos una idea de la distribución de plazas  convocadas de los distintos cuerpos se ha generado el siguiente gráfico (Fig. 5) donde se ve claramente el ranking de convocatorias de los distintos cuerpos.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
 knitr::include_graphics("figs\\5_summary_plazas_bars.png")
@@ -108,7 +108,7 @@ Parece que hay tantas plazas de catedráticos de Música como de profesores de F
 
 ## ¿Qué pasa con las plazas de Catedráticos de Música y Artes Plásticas?
 
-Si nos fijamos en las plazas de del cuerpo de Catedráticos de Música y Artes Plásticas (593) en la figura anterior (Fig. 5) podemos pensar que salen muchas plazas disponibles, pero vemos que el número de plazas efectivas es mucho menor. La explicación lógica es que estas plazas no se cubren y se vuelven a convocar en la siguiente convocatoria.
+Si nos fijamos en las plazas del cuerpo de Catedráticos de Música y Artes Plásticas (593) en la figura anterior (Fig. 5) podemos pensar que salen muchas plazas disponibles, pero vemos que el número de plazas efectivas es mucho menor. La explicación lógica es que estas plazas no se cubren y se vuelven a convocar en la siguiente convocatoria.
 En el siguiente gráfico (Fig. 6) vemos que, efectivamente, salen muchas plazas no cubiertas en convocatorias anteriores, lo cual nos dice que estas plazas no se cubren fácilmente. Adicionalmente, podemos ver que unas plazas son sustituciones y otras vacantes.
 
 ```{r echo=FALSE, out.width="100%", fig.align='center'}
